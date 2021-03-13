@@ -3,7 +3,7 @@ version: 0.0.3
 description: >
    dart flutter项目的一些基础支持，json序列化、工具类等
 author: fengwuxp
-homepage: https://github.com/fengwuxp/fengwuxp_dart_basic
+homepage: https://github.com/RichsJeson/fengwuxp_dart_basic
 
 environment:
   sdk: '>=2.10.0 <3.0.0'
