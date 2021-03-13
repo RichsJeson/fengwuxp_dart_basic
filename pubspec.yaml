@@ -1,28 +1,29 @@
 name: fengwuxp_dart_basic
-version: 0.0.1
+version: 0.0.3
 description: >
    dart flutter项目的一些基础支持，json序列化、工具类等
 author: fengwuxp
 homepage: https://github.com/fengwuxp/fengwuxp_dart_basic
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=2.10.0 <3.0.0'
+  flutter: '>=1.17.0 <2.1.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  built_collection: '>=2.0.0 <5.0.0'
-  built_value: ^7.0.2
+  built_collection: ^5.0.0
+  built_value: ^8.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  test: ^1.0.0
-  build_runner: any
-  build_test: any
+  test: ^1.16.8
+  build_runner: ^1.12.1
+  build_test: ^2.0.0
+  built_value_generator: ^8.0.2
   # If you need to run web tests, you will also need this dependency.
   #  build_web_compilers: any
-  built_value_generator: ^7.0.9
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
